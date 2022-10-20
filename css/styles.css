@@ -31,14 +31,72 @@ body {
 .site-nav {
   background: #ffffff;
 }
-.site-nav-link {
+.site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14x;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav:hover,
+.site-nav:focus {
   color: #2196f3;
+}
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.auth-nav:hover,
+.auth-nav:focus {
+  color: #2196f3;
+}
+/* Блок Хиро */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+/* Список ефективних рішеня для вашого бізнесу */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.decisions-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }

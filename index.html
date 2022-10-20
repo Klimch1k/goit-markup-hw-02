@@ -17,59 +17,69 @@
       <!-- Логотип -->
       <a class="head-logo link" href="/">WebStudio</a>
       <!-- Навігація -->
-      <nav class="site-nav">
-        <ul>
-          <li><a class="site-nav-link link" href="*" target="*">Студія</a></li>
+      <nav>
+        <ul class="list">
+          <li><a class="site-nav link" href="*" target="*">Студія</a></li>
           <li>
-            <a class="site-nav-link link" href="portfolio.html" target="_self"
+            <a class="site-nav link" href="portfolio.html" target="_self"
               >Портфоліо</a
             >
           </li>
           <li>
-            <a class="site-nav-link link" href="*" target="*">Контакти</a>
+            <a class="site-nav link" href="*" target="*">Контакти</a>
           </li>
         </ul>
       </nav>
       <!-- Телефон та мейл -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <a class="auth-nav link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="auth-nav link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <!-- Мейн контент -->
     <main>
       <!-- Блок хиро -->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <!-- Список ефективних рішень для вашого бізнесу -->
       <section>
         <!-- Заголовок, якого немає в макеті, але логічно його тут поставити та потім прибрати в CSS-->
-        <h2>Список ефективних рішень для вашого бізнесу</h2>
-        <ul>
+        <h2 class="visually-hidden">
+          Список ефективних рішень для вашого бізнесу
+        </h2>
+        <ul class="list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <h3 class="decisions-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <h3 class="decisions-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p>
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
+            <h3 class="decisions-title">ПЛАНУВАННЯ</h3>
             <p>
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="decisions-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -80,7 +90,7 @@
       <!-- Список послуг -->
       <section>
         <h2>Чим ми займаємося</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/img1.jpg"
@@ -104,7 +114,7 @@
       <!-- Наша команда -->
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/imgteam1.jpg"
@@ -152,7 +162,7 @@
     <footer>
       <a href="/">WebStudio</a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/8ZF42JuxDTGgMg426"
