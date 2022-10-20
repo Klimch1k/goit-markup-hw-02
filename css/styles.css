@@ -1,0 +1,44 @@
+/* цвет основного текста color: #757575; */
+/* цвет заголовков color: #212121; */
+/* цвет адреса color: #FFFFFF; */
+/* бек цвет хедера background: #FFFFFF; */
+/* бек хиро и футера background: #2F303A; */
+/* бек секций background: #F5F4FA; */
+/* колір акценту #2196F3; */
+
+/* Глобальні стилі для баді */
+body {
+  font-family: "Roboto", "Athelas", "Arial", sans-serif;
+  color: #757575;
+}
+/* Скидування дефолтних стилів */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Лого */
+
+.head-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+/* Навігація сайту */
+.site-nav {
+  background: #ffffff;
+}
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14x;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: #2196f3;
+}
