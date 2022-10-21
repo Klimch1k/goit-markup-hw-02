@@ -1,15 +1,14 @@
-/* цвет основного текста color: #757575; */
-/* цвет заголовков color: #212121; */
-/* цвет адреса color: #FFFFFF; */
-/* бек цвет хедера background: #FFFFFF; */
-/* бек хиро и футера background: #2F303A; */
-/* бек секций background: #F5F4FA; */
-/* колір акценту #2196F3; */
+
+:root {--main-color:#757575;
+--title-color: #212121;
+--main-back-color: #F5F4FA; 
+--accent-color:#2196F3; 
+--second-back-color: #2F303A;}
 
 /* Глобальні стилі для баді */
 body {
   font-family: "Roboto", "Athelas", "Arial", sans-serif;
-  color: #757575;
+  color: var(--main-color);
 }
 /* Скидування дефолтних стилів */
 .link {
@@ -18,8 +17,11 @@ body {
 .list {
   list-style: none;
 }
+/* Хедер */
+.site-start {
+  background: #ffffff;
+}
 /* Лого */
-
 .logo {
   font-weight: 700;
   font-size: 26px;
@@ -28,15 +30,13 @@ body {
   color: #2196f3;
 }
 /* Навігація сайту */
-.site-nav {
-  background: #ffffff;
-}
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14x;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color)
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -47,15 +47,15 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-color)
 }
 .auth-nav:hover,
 .auth-nav:focus {
-  color: #2196f3;
+  color: var(--accent-color)
 }
 /* Блок Хиро */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--second-back-color)
 }
 .hero-title {
   font-weight: 900;
@@ -80,6 +80,9 @@ body {
   background: #2196f3;
 }
 /* Список ефективних рішеня для вашого бізнесу */
+.decisions {
+  background: #f5f4fa;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -93,36 +96,34 @@ body {
   overflow: hidden;
 }
 .decisions-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color)
 }
 
 .decisions-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 /* Список послуг  */
 .servises {
-  background: #f5f4fa;
+  background: var(--main-back-color)
 }
-.servise-title,
+.servises-title,
 .team-title {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color)
 }
 
 /* Наша команда */
 .team {
-  background: #f5f4fa;
+  background: var(--main-back-color)
 }
 .team-person {
   font-weight: 500;
@@ -130,19 +131,19 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color)
 }
 .team-text {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  
 }
 
 /* Футер */
 .site-end {
-  background: #2f303a;
+  background: var(--second-back-color)
 }
 
 .location {
@@ -152,3 +153,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+.location:hover,
+.location:focus {
+  color: var(--accent-color)
