@@ -24,11 +24,21 @@ body {
 }
 /* Лого */
 .logo {
+  font-family: "Raleway", "Roboto", "Athelas", "Arial", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio-start {
+  color: #000000;
+}
+.logo-studio-end {
+  color: #ffffff;
 }
 /* Навігація сайту */
 
@@ -79,6 +89,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+  cursor: pointer;
 }
 /* Список ефективних рішеня для вашого бізнесу */
 .decisions {
