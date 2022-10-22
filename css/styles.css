@@ -1,7 +1,7 @@
 :root {
   --main-color: #757575;
   --title-color: #212121;
-  --main-back-color: #f5f4fa;
+  --main-back-color: #ffffff;
   --accent-color: #2196f3;
   --second-back-color: #2f303a;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .hero-button {
-  font-family: "Roboto";
+  font-family: "Roboto", "Athelas", "Arial", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -175,7 +175,7 @@ body {
   background-color: var(--main-back-color);
 }
 .portfolio-button {
-  font-family: "Roboto";
+  font-family: "Roboto", "Athelas", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
