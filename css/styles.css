@@ -10,6 +10,7 @@
 body {
   font-family: "Roboto", "Athelas", "Arial", sans-serif;
   color: var(--main-color);
+  background-color: var(--main-back-color);
 }
 /* Скидування дефолтних стилів */
 .link {
@@ -92,9 +93,6 @@ body {
   cursor: pointer;
 }
 /* Список ефективних рішеня для вашого бізнесу */
-.decisions {
-  background: #f5f4fa;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -135,7 +133,7 @@ body {
 
 /* Наша команда */
 .team {
-  background: var(--main-back-color);
+  background-color: #f5f4fa;
 }
 .team-person {
   font-weight: 500;
